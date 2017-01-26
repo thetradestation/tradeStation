@@ -8,28 +8,29 @@
         <meta name="author" content="Hazem Zaki">
         <meta name="categories" content="E-Commerce">
         <meta name="generator" content="Hotline Internet & Technology Co. Ltd.">
-        <link href="<?php echo asset_url();?>images/home.ico" rel="shortcut icon" type="image/x-icon">
-        <link href="<?php echo asset_url();?>css/station.css" rel="stylesheet">
-        <link href="<?php echo asset_url();?>css/index.css" rel="stylesheet">
-        <script src="<?php echo asset_url();?>js/jquery-1.11.1.min.js"></script>
-        <script src="<?php echo asset_url();?>js/jquery.ui.effect.min.js"></script>
-        <script src="<?php echo asset_url();?>js/jquery.ui.effect-fade.min.js"></script>
-        <script src="<?php echo asset_url();?>js/wb.carousel.effects.min.js"></script>
-        <script src="<?php echo asset_url();?>js/jquery.ui.effect-blind.min.js"></script>
-        <script src="<?php echo asset_url();?>js/jquery.2dtransform.js"></script>
-        <script src="<?php echo asset_url();?>js/wb.carousel.min.js"></script>
-        <script src="<?php echo asset_url();?>js/wb.stickylayer.min.js"></script>
-        <script src="<?php echo asset_url();?>js/jquery.ui.effect-bounce.min.js"></script>
-        <script src="<?php echo asset_url();?>js/jquery.ui.effect-clip.min.js"></script>
-        <script src="<?php echo asset_url();?>js/jquery.ui.effect-drop.min.js"></script>
-        <script src="<?php echo asset_url();?>js/jquery.ui.effect-explode.min.js"></script>
-        <script src="<?php echo asset_url();?>js/jquery.ui.effect-fold.min.js"></script>
-        <script src="<?php echo asset_url();?>js/jquery.ui.effect-highlight.min.js"></script>
-        <script src="<?php echo asset_url();?>js/jquery.ui.effect-pulsate.min.js"></script>
-        <script src="<?php echo asset_url();?>js/jquery.ui.effect-scale.min.js"></script>
-        <script src="<?php echo asset_url();?>js/jquery.ui.effect-shake.min.js"></script>
-        <script src="<?php echo asset_url();?>js/jquery.ui.effect-slide.min.js"></script>
-        <script src="<?php echo asset_url();?>js/searchindex.js"></script>
+        <link href="<?php echo asset_url(); ?>images/home.ico" rel="shortcut icon" type="image/x-icon">
+        <link href="<?php echo asset_url(); ?>css/station.css" rel="stylesheet">
+        <link href="<?php echo asset_url(); ?>css/index.css" rel="stylesheet">
+        <script src="<?php echo asset_url(); ?>js/jquery-1.11.1.min.js"></script>
+        <script src="<?php echo asset_url(); ?>js/jquery.ui.effect.min.js"></script>
+        <script src="<?php echo asset_url(); ?>js/jquery.ui.effect-fade.min.js"></script>
+        <script src="<?php echo asset_url(); ?>js/wb.carousel.effects.min.js"></script>
+        <script src="<?php echo asset_url(); ?>js/jquery.ui.effect-blind.min.js"></script>
+        <script src="<?php echo asset_url(); ?>js/jquery.2dtransform.js"></script>
+        <script src="<?php echo asset_url(); ?>js/wb.carousel.min.js"></script>
+        <script src="<?php echo asset_url(); ?>js/wb.stickylayer.min.js"></script>
+        <script src="<?php echo asset_url(); ?>js/jquery.ui.effect-bounce.min.js"></script>
+        <script src="<?php echo asset_url(); ?>js/jquery.ui.effect-clip.min.js"></script>
+        <script src="<?php echo asset_url(); ?>js/jquery.ui.effect-drop.min.js"></script>
+        <script src="<?php echo asset_url(); ?>js/jquery.ui.effect-explode.min.js"></script>
+        <script src="<?php echo asset_url(); ?>js/jquery.ui.effect-fold.min.js"></script>
+        <script src="<?php echo asset_url(); ?>js/jquery.ui.effect-highlight.min.js"></script>
+        <script src="<?php echo asset_url(); ?>js/jquery.ui.effect-pulsate.min.js"></script>
+        <script src="<?php echo asset_url(); ?>js/jquery.ui.effect-scale.min.js"></script>
+        <script src="<?php echo asset_url(); ?>js/jquery.ui.effect-shake.min.js"></script>
+        <script src="<?php echo asset_url(); ?>js/jquery.ui.effect-slide.min.js"></script>
+        <script src="<?php echo asset_url(); ?>js/searchindex.js"></script>
+        <script src="<?php echo asset_url(); ?>js/wwb10.min.js"></script>
         <script>
             var features = 'toolbar=no,menubar=no,location=no,scrollbars=yes,resizable=yes,status=no,left=,top=,width=,height=';
             var searchDatabase = new SearchDatabase();
@@ -119,8 +120,6 @@
                     }
                 }
             }
-        </script>
-        <script>
             function ValidateOffer_for_you_post_in_RT_Business(theForm)
             {
                 var regexp;
@@ -204,8 +203,6 @@
                 }
                 return true;
             }
-        </script>
-        <script>
             function ValidateOffer_for_you_post_in_RT_Business(theForm)
             {
                 var regexp;
@@ -311,9 +308,6 @@
                 }
                 return true;
             }
-        </script>
-        <script src="<?php echo asset_url();?>js/wwb10.min.js"></script>
-        <script>
             $(document).ready(function ()
             {
                 var Carousel8Opts =
@@ -404,8 +398,8 @@
                             mode: 'rotate',
                             direction: '',
                             pagination: true,
-                            pagination_img_default: '<?php echo asset_url();?>images/Carousel-footer3.png',
-                            pagination_img_active: '<?php echo asset_url();?>images/Carousel-footer2.png',
+                            pagination_img_default: '<?php echo asset_url(); ?>images/Carousel-footer3.png',
+                            pagination_img_active: '<?php echo asset_url(); ?>images/Carousel-footer2.png',
                             start: 0
                         };
                 $("#Carousel3").carouseleffects(Carousel3Opts);
